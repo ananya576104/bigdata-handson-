@@ -1,0 +1,89 @@
+Here are **clean summary notes** for **"Introduction to CSV Data (OpenOffice & Microsoft Excel)"** from **Module 2** of *Big Data Modeling and Management Systems*:
+
+---
+
+## 📊 Introduction to CSV Data (OpenOffice & Excel)
+
+### ✅ **Learning Outcomes**
+
+By the end of this activity, you should be able to:
+
+* Recognize key features of CSV data.
+* Import CSV data into a spreadsheet (OpenOffice or Excel).
+* Create a simple population chart using the data.
+
+---
+
+### 🗂️ **Steps (Common for Both Tools)**
+
+#### **Step 1: Open Terminal & Navigate**
+
+```bash
+cd big-data-2/csv
+```
+
+#### **Step 2: View CSV File**
+
+```bash
+ls
+more census.csv
+```
+
+* The first row = header
+* Remaining rows = data
+* Entries are **comma-separated**
+
+---
+
+### 🧾 **OpenOffice Instructions**
+
+#### Step 3: Launch OpenOffice Spreadsheet
+
+* Download from [OpenOffice.org](https://www.openoffice.org/)
+* Open → **Spreadsheet**
+
+#### Step 4: Import CSV
+
+* `File` → `Open` → Select `census.csv`
+* In **Text Import dialog**: Choose **Comma** as separator → Click **OK**
+
+#### Step 5: Check CSV Size
+
+* Scroll to bottom → Total: **3194 rows**
+* Note: Spreadsheets aren’t suitable for **millions of rows** → Use **Big Data tools** like **Hadoop**
+
+#### Step 6: Plot Population Chart (Alabama)
+
+* Select **row 2**, columns **J to O** (years 2010–2015)
+* Click **Chart** → Click **Finish**
+* Chart appears in spreadsheet
+
+---
+
+### 📈 **Microsoft Excel Instructions**
+
+#### Step 3: Create New Workbook → Import CSV
+
+* `Data` → `From Text/CSV` → Select `census.csv`
+* In import dialog: **Delimiter = Comma** → Click **Load**
+
+#### Step 4: Check CSV Size
+
+* Scroll down → Confirm **3194 rows**
+
+#### Step 5: Create Population Chart (Alabama)
+
+* Select **row 2**, columns **J to O**
+* `Insert` → `Recommended Charts` → Choose first chart → Click **OK**
+
+---
+
+### 💡 Notes
+
+* **CSV (Comma-Separated Values)** is a simple and widely-used format.
+* Ideal for small to medium-sized datasets.
+* Use **Big Data systems** (e.g., Hadoop, Spark) for large datasets beyond spreadsheet capabilities.
+
+---
+
+Would you like a **PDF summary** or a **hands-on exercise** based on this module?
