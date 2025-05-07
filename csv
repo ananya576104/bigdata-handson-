@@ -87,3 +87,71 @@ more census.csv
 ---
 
 Would you like a **PDF summary** or a **hands-on exercise** based on this module?
+
+
+
+
+Here's a **summary of the video titled "Exploring the Relational Data Model of CSV Files"** from the *Big Data Modeling and Management Systems* course (Module 2) on Coursera:
+
+---
+
+### 📄 **Objective**
+
+* To explore how **CSV files** align with the **relational data model** using Excel.
+* Perform **filtering**, **aggregation**, and **basic statistical operations** on census data.
+
+---
+
+### 🧰 **Steps Performed**
+
+1. **Importing CSV Data into Excel**
+
+   * Open Excel → Click *Blank Workbook*.
+   * Go to *Data* tab → Click *From Text/CSV*.
+   * Select the `"Census CSV"` file and click *Load*.
+
+2. **Applying Filters**
+
+   * Use dropdown arrows at the top of columns.
+   * Example:
+
+     * **Filter by state** → Keep only California.
+     * **Filter by population** → Use “Greater than 1,000,000” to see counties with large populations.
+   * Notice: A **summary row** (e.g., for all of California) may be included.
+
+3. **Clearing Filters**
+
+   * Go to *Data* tab → Click *Clear* to remove all applied filters.
+
+---
+
+### 📊 **Performing Statistical Operations**
+
+4. **Create New Sheet**
+
+   * Add and rename a new sheet (e.g., to `"Stats"`).
+
+5. **Calculate Average**
+
+   * Use Excel formula:
+     `=AVERAGE(SheetName!H5:H13)`
+     (Calculates average population of selected counties)
+
+6. **Calculate Sum**
+
+   * Use Excel formula:
+     `=SUM(SheetName!H16:H25)`
+     (Sums population values for selected counties)
+
+---
+
+### 🔁 **Key Takeaways**
+
+* CSV files can be viewed as **relational tables** with rows (records) and columns (attributes).
+* Excel enables relational-style **queries**, **filters**, and **aggregations**.
+* Helps understand **basic relational operations** without writing SQL.
+
+---
+
+Would you like help doing the same analysis using Python or SQL?
+
